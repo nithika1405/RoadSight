@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # RoadSight — Pothole Detection Platform
 
 An end-to-end pothole detection and road-condition intelligence platform.
@@ -405,3 +406,6 @@ npm run build      # production bundle → dist\
 ## License
 
 Provided as-is for demonstration and evaluation purposes.
+=======
+# RoadSight
+>>>>>>> 519a947b5b6954c6505c0191f1dd6c27b14628d7
