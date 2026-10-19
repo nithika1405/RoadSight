@@ -1,0 +1,22 @@
+/** Dark "command centre" styling applied to the Google base map. */
+export const DARK_MAP_STYLE = [
+  { elementType: 'geometry', stylers: [{ color: '#0f1220' }] },
+  { elementType: 'labels.text.fill', stylers: [{ color: '#8b93ad' }] },
+  { elementType: 'labels.text.stroke', stylers: [{ color: '#0b0e18' }] },
+  { elementType: 'labels.icon', stylers: [{ visibility: 'off' }] },
+  { featureType: 'administrative', elementType: 'geometry', stylers: [{ color: '#2a3048' }] },
+  { featureType: 'administrative.country', elementType: 'labels.text.fill', stylers: [{ color: '#b7bdd1' }] },
+  { featureType: 'administrative.land_parcel', stylers: [{ visibility: 'off' }] },
+  { featureType: 'poi', elementType: 'geometry', stylers: [{ color: '#141a2b' }] },
+  { featureType: 'poi', elementType: 'labels.text.fill', stylers: [{ color: '#6b7391' }] },
+  { featureType: 'poi.park', elementType: 'geometry', stylers: [{ color: '#10241f' }] },
+  { featureType: 'poi.park', elementType: 'labels.text.fill', stylers: [{ color: '#4f7d6e' }] },
+  { featureType: 'road', elementType: 'geometry', stylers: [{ color: '#1c2131' }] },
+  { featureType: 'road', elementType: 'labels.text.fill', stylers: [{ color: '#8b93ad' }] },
+  { featureType: 'road.arterial', elementType: 'geometry', stylers: [{ color: '#232a3f' }] },
+  { featureType: 'road.highway', elementType: 'geometry', stylers: [{ color: '#2c3550' }] },
+  { featureType: 'road.highway', elementType: 'geometry.stroke', stylers: [{ color: '#161b2a' }] },
+  { featureType: 'transit', elementType: 'geometry', stylers: [{ color: '#1a2033' }] },
+  { featureType: 'water', elementType: 'geometry', stylers: [{ color: '#0a1526' }] },
+  { featureType: 'water', elementType: 'labels.text.fill', stylers: [{ color: '#3d5a80' }] },
+]
